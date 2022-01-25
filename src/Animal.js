@@ -1,7 +1,7 @@
 export default function Animal({ name, type, says, top, left }) {
-  return <div>
+  return <section style={{ bottom: top, left: left }}>
     <img src={`/images/${type}.svg`} alt={type} />
-    <p>{name}</p>
+    <h4>{name}</h4>
     <p>{says}</p>
-  </div>;
+  </section>;
 }

@@ -6,9 +6,9 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header greeting='Welcome!'/>
       <Main />
-      <Footer />
+      <Footer email='notanemail@gmail.com'/>
     </div>
   );
 }
